@@ -1366,5 +1366,62 @@
                 "interactions": 22.15
             }
         }
+    },
+    {
+        "id": "8d9b85a1-96f6a973",
+        "method": {
+            "name": "react agent + auto optimized skill",
+            "tooltip": "react agent + auto optimized skill which is optimized by AntOmniEvo"
+        },
+        "llm": {
+            "name": "DeepSeek-V4-Pro",
+            "tooltip": "DeepSeek-V4-Pro deployed internally"
+        },
+        "url": "https://github.com/ant-research/AntOmniEvo",
+        "date": "2026-09-30",
+        "test_normal": {
+            "all": {
+                "task_goal_completion": 93.5,
+                "scenario_goal_completion": 83.9,
+                "interactions": 14.99
+            },
+            "level 1": {
+                "task_goal_completion": 98.2,
+                "scenario_goal_completion": 94.7,
+                "interactions": 14.99
+            },
+            "level 2": {
+                "task_goal_completion": 93.8,
+                "scenario_goal_completion": 81.2,
+                "interactions": 14.99
+            },
+            "level 3": {
+                "task_goal_completion": 88.9,
+                "scenario_goal_completion": 76.2,
+                "interactions": 14.99
+            }
+        },
+        "test_challenge": {
+            "all": {
+                "task_goal_completion": 80.8,
+                "scenario_goal_completion": 69.1,
+                "interactions": 17.91
+            },
+            "level 1": {
+                "task_goal_completion": 91.7,
+                "scenario_goal_completion": 79.2,
+                "interactions": 17.91
+            },
+            "level 2": {
+                "task_goal_completion": 79.3,
+                "scenario_goal_completion": 72.0,
+                "interactions": 17.91
+            },
+            "level 3": {
+                "task_goal_completion": 78.0,
+                "scenario_goal_completion": 63.1,
+                "interactions": 17.91
+            }
+        }
     }
 ]
